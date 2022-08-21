@@ -2,47 +2,51 @@
 <html lang="en-US">
    <head>
      <title>static</title>
-       <link rel="preconnect" href="https://fonts.googleapis.com">
-       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <!-- CSS only -->
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+             rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
        <link rel="stylesheet" href="asset/css/style.css" />
    </head>
    <body>
    <div id="heading">
-      <h1>Messi vs Neymar</h1>
+      <h1>Messi vs Ronaldo</h1>
       <p> this is a website about Lionel messi and neymar</p>
 
    </div>
 
    <div id="messi">
       <h3>Lionel messi</h3>
-      <img src="asset/img/messi.jpg" height="1000" width="701" alt="loading..."/>
+      <img src="asset/img/messi.jpg" alt="loading..."/>
        <div class="player-info">
           <p>Lionel Andrés Messi, also known as Leo Messi, is an Argentine professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and captains the Argentina national team.
               <br><strong><u>Born:</u> June 24, 1987 (age 35 years), Rosario, Argentina</strong>
               <br><strong><u>Height: 1.69 m</u></strong>
-              <br><strong><u>Club:PSG</u></strong>
               <br><strong><u>National Team:Argentina</u></strong></p>
            <ul>
+               <p><strong>Club</strong></p>
+               <li>PSG</li>
                <li>FC BARCELONA</li>
+
            </ul>
-            <a target="_blank" href="https://ssk.fsrel.com">loading</a>
+            <a href="https://ssk.fsrel.com" target="_blank">loading</a>
        </div>
    </div>
 
-   <div id="neymar">
-      <h3>Neymar</h3>
-      <img src="asset/img/neymar.jpg" height="1000" width="701" alt="loading..."/>
+   <div id="Ronaldo">
+      <h3>Cristiano Ronaldo</h3>
+      <img src="asset/img/brand_eyewear.jpg" alt="loading..."/>
        <div class="player-info">
-          <p>Neymar da Silva Santos Júnior, known as Neymar, is a Brazilian professional footballer who plays as a winger for Ligue 1 club Paris Saint-Germain and the Brazil national team.
-              <br><strong><u>Born:</u> February 5, 1992 (age 30 years), Mogi das Cruzes, State of São Paulo, Brazil</strong>
-              <br><strong><u>Height: 1.75 m</u></strong>
-              <br><strong><u>Club:PSG</u></strong>
-              <br><strong><u>National Team:Brazil</u></strong></p>
+           <p>Cristiano Ronaldo dos Santos Aveiro GOIH ComM is a Portuguese professional footballer who plays as a forward for Premier League club Manchester United and captains the Portugal national team.
+              <br><strong><u>Born:</u>February 5, 1985 (age 37 years)</strong>
+              <br><strong><u>Height:  1.87 m</u></strong>
+              <br><strong><u>National Team:Portugal</u></strong></p>
           <ul>
-              <li>PSG</li>
-              <li>FC BARCELONA</li>
-              <li>SANTOS</li>
+              <p><strong>Club</strong></p>
+              <li>Real Madrid</li>
+              <li>Juventus</li>
+              <li>Man United</li>
           </ul>
            <a href="https://ssk.fsrel.com" target="_blank">loading</a>
        </div>
@@ -50,11 +54,11 @@
 
       <br><br>
 
-      <table border="1" width="100%">
+      <table class="table table-dark table-striped">
           <tr>
               <th>statistics</th>
               <th>messi</th>
-              <th>neymar</th>
+              <th>Ronaldo</th>
           </tr>
           <tr>
               <td>Appearance</td>
@@ -81,11 +85,14 @@
            <p>Who 's your Favorite</p>
            <select>
                <option value="messi">Lionel messi</option>
-               <option value="neymar">JS neymar</option>
+               <option value="Ronaldo">Cristiano Ronaldo</option>
            </select>
            <p>why is he your favorite?<br><textarea name="who-favorite" id="" cols="30" rows="10"></textarea></p>
            <button type="submit">submit</button>
        </form>
    </div>
+
+<!-- JavaScript Bundle with Popper -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
    </body>
 </html>
